@@ -1,0 +1,21 @@
+{
+  "port": 8001,
+  "appName": "user-service",
+  "appEnv": "local",
+  "signatureKey": "IphDM6yqXe0nlo3CyMlV",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "user_service",
+    "username": "root",
+    "password": "barca1899",
+    "maxOpenConnection": 10,
+    "maxLifetimeConnection": 10,
+    "maxIdleConnection": 10,
+    "maxIdleTime": 10
+  },
+  "rateLimiterMaxRequest": 1000,
+  "rateLimiterTimeSecond": 60,
+  "jwtSecretKey": "OozDxGtWx79CMjAUC7u5",
+  "jwtExpirationTime": 1440
+}
